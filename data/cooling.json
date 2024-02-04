@@ -1,0 +1,10 @@
+{
+  "cooling": [
+    {"name": "Noctua NH-D15", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 90},
+    {"name": "NZXT Kraken X63", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 150},
+    {"name": "Cooler Master Hyper 212 RGB", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 40},
+    {"name": "Corsair H100i RGB PLATINUM SE", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 160},
+    {"name": "Deepcool GAMMAXX GT", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 35},
+    {"name": "Arctic Liquid Freezer II 240", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 90}
+  ]
+}

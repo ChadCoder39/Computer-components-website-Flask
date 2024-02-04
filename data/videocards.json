@@ -1,0 +1,11 @@
+{
+  "video_cards": [
+    {"name": "NVIDIA GeForce GTX 1080", "memory": "8GB GDDR5X", "price": 500},
+    {"name": "AMD Radeon RX 5700 XT", "memory": "8GB GDDR6", "price": 450},
+    {"name": "NVIDIA GeForce RTX 3070", "memory": "8GB GDDR6", "price": 600},
+    {"name": "AMD Radeon RX 5600 XT", "memory": "6GB GDDR6", "price": 300},
+    {"name": "NVIDIA GeForce GTX 1660 Super", "memory": "6GB GDDR5", "price": 250},
+    {"name": "AMD Radeon RX 5500 XT", "memory": "4GB GDDR6", "price": 200}
+  ]
+}
+
