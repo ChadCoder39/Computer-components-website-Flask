@@ -1,6 +1,9 @@
 from flask import Flask, render_template
+from utils.readJson import readJson
+
 
 app = Flask(__name__)
+
 
 @app.route("/startpage")
 def start_page():
@@ -20,7 +23,7 @@ def contacts():
 
 @app.route("/video_cards")
 def video_cards():
-    return render_template("video_cards.html", title="Video Cards", content="Video Cards Content")
+    return render_template("video_cards.html", title="Video Cards", content=readJson('videocards.json'))
 
 @app.route("/processors")
 def processors():
