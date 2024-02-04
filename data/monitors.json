@@ -1,0 +1,10 @@
+{
+  "monitors": [
+    {"name": "Dell S2419HGF", "size": "24 inches", "resolution": "1920x1080", "refresh_rate": "144Hz", "price": 200},
+    {"name": "LG 27GL83A-B", "size": "27 inches", "resolution": "2560x1440", "refresh_rate": "144Hz", "price": 500},
+    {"name": "Acer Predator XB271HU", "size": "27 inches", "resolution": "2560x1440", "refresh_rate": "144Hz", "price": 600},
+    {"name": "Asus VG278QR", "size": "27 inches", "resolution": "1920x1080", "refresh_rate": "165Hz", "price": 300},
+    {"name": "Samsung Odyssey G7", "size": "32 inches", "resolution": "2560x1440", "refresh_rate": "240Hz", "price": 700},
+    {"name": "MSI Optix MAG271CQR", "size": "27 inches", "resolution": "2560x1440", "refresh_rate": "144Hz", "price": 400}
+  ]
+}

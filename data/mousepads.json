@@ -1,0 +1,10 @@
+{
+  "mousepads": [
+    {"name": "SteelSeries QcK", "width": 320, "height": 270, "material": "Cloth", "price": 15},
+    {"name": "Corsair MM300", "width": 930, "height": 300, "material": "Textile-Weave", "price": 25},
+    {"name": "Razer Goliathus Speed", "width": 450, "height": 400, "material": "Soft", "price": 20},
+    {"name": "Logitech G240", "width": 340, "height": 280, "material": "Cloth", "price": 10},
+    {"name": "HyperX Fury S", "width": 900, "height": 420, "material": "Cloth", "price": 30},
+    {"name": "Cooler Master MP510", "width": 320, "height": 270, "material": "Cordura Fabric", "price": 22}
+  ]
+}

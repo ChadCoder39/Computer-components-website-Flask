@@ -1,0 +1,10 @@
+{
+  "power_units": [
+    {"name": "EVGA SuperNOVA 650 G5", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 90},
+    {"name": "Corsair RM750x", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 120},
+    {"name": "Seasonic Focus GX-550", "wattage": 550, "efficiency": "80 PLUS Gold", "price": 80},
+    {"name": "Thermaltake Toughpower GF1 750W", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 100},
+    {"name": "Cooler Master MWE Gold 650", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 85},
+    {"name": "be quiet! Straight Power 11 850W", "wattage": 850, "efficiency": "80 PLUS Gold", "price": 150}
+  ]
+}
