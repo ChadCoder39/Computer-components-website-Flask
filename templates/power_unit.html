@@ -1,1 +1,11 @@
 {% extends "base.html" %}
+
+{% block body %}
+    <div class="container my-3">
+        <div class="row gap-3 d-flex justify-content-center align-items-center">
+            {% for power_unit in content %}
+                {% include 'components/power_unit.html' %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

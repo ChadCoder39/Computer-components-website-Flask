@@ -32,7 +32,7 @@ def video_cards():
 
 @app.route("/processors")
 def processors():
-    return render_template("processors.html", title="Processors", content="Processors Content")
+    return render_template("processors.html", title="Processors", content=readJson('ram.json'))
 
 
 @app.route("/ram")
@@ -42,57 +42,57 @@ def ram():
 
 @app.route("/discs")
 def discs():
-    return render_template("discs.html", title="Discs", content="Discs Content")
+    return render_template("discs.html", title="Discs", content=readJson('discs.json'))
 
 
 @app.route("/motherboards")
 def motherboards():
-    return render_template("motherboards.html", title="Motherboards", content="Motherboards Content")
+    return render_template("motherboards.html", title="Motherboards", content=readJson('motherboards.json'))
 
 
 @app.route("/power_unit")
 def power_unit():
-    return render_template("power_unit.html", title="Power Unit", content="Power Unit Content")
+    return render_template("power_unit.html", title="Power Unit", content=readJson('power_unit.json'))
 
 
 @app.route("/cooling")
 def cooling():
-    return render_template("cooling.html", title="Cooling", content="Cooling Content")
+    return render_template("cooling.html", title="Cooling", content=readJson('cooling.json'))
 
 
 @app.route("/cases")
 def frame():
-    return render_template("cases.html", title="Cases", content="Cases Content")
+    return render_template("cases.html", title="Cases", content=readJson('cases.json'))
 
 
 @app.route("/monitors")
 def monitor():
-    return render_template("monitors.html", title="Monitors", content="Monitors Content")
+    return render_template("monitors.html", title="Monitors", content=readJson('monitors.json'))
 
 
 @app.route("/accessories")
 def accessories():
-    return render_template("accessories.html", title="Accessories", content="Accessories Content")
+    return render_template("accessories.html", title="Accessories", content=readJson('accessories.json'))
 
 
 @app.route("/keyboards")
 def keyboard():
-    return render_template("keyboards.html", title="Keyboards", content="Keyboards Content")
+    return render_template("keyboards.html", title="Keyboards", content=readJson('keyboards.json'))
 
 
 @app.route("/mouses")
 def mouse():
-    return render_template("mouses.html", title="Mouses", content="Mouses Content")
+    return render_template("mouses.html", title="Mouses", content=readJson('mouses.json'))
 
 
 @app.route("/mousepad")
 def rug():
-    return render_template("mousepad.html", title="Rug", content="Rug Content")
+    return render_template("mousepad.html", title="Rug", content=readJson('mousepad.json'))
 
 
 @app.route("/headphones")
 def headphones():
-    return render_template("headphones.html", title="Headphones", content="Headphones Content")
+    return render_template("headphones.html", title="Headphones", content=readJson('headphones.json'))
 
 
 #Cart

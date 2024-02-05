@@ -1,1 +1,12 @@
 {% extends "base.html" %}
+
+
+{% block body %}
+    <div class="container my-3">
+        <div class="row gap-3 d-flex justify-content-center align-items-center">
+            {% for disk in content %}
+                {% include 'components/disk.html' %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
