@@ -1,0 +1,8 @@
+[
+    {"name": "Logitech G Pro X Mechanical Gaming Keyboard", "type": "Mechanical", "switch_type": "GX Blue", "backlighting": "Yes", "weight": 980, "price": 150, "product_id": 301},
+    {"name": "Corsair K95 RGB Platinum XT", "type": "Mechanical", "switch_type": "Cherry MX Brown", "backlighting": "Yes", "weight": 1100, "price": 200, "product_id": 302},
+    {"name": "SteelSeries Apex Pro", "type": "Mechanical", "switch_type": "OmniPoint Adjustable", "backlighting": "Yes", "weight": 771, "price": 250, "product_id": 303},
+    {"name": "Razer BlackWidow Elite", "type": "Mechanical", "switch_type": "Razer Green", "backlighting": "Yes", "weight": 1440, "price": 120, "product_id": 304},
+    {"name": "HyperX Alloy FPS Pro", "type": "Mechanical", "switch_type": "Cherry MX Red", "backlighting": "No", "weight": 900, "price": 80, "product_id": 305},
+    {"name": "Ducky One 2 Mini", "type": "Mechanical", "switch_type": "Cherry MX Brown", "backlighting": "Yes", "weight": 590, "price": 120, "product_id": 306}
+]

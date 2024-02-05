@@ -42,7 +42,7 @@ def ram():
 
 @app.route("/disks")
 def discs():
-    return render_template("discs.html", title="Discs", content=readJson('discs.json'))
+    return render_template("disks.html", title="Disks", content=readJson('disks.json'))
 
 
 @app.route("/motherboards")
@@ -52,7 +52,7 @@ def motherboards():
 
 @app.route("/power_units")
 def power_unit():
-    return render_template("power_unit.html", title="Power Unit", content=readJson('power_unit.json'))
+    return render_template("power_units.html", title="Power Unit", content=readJson('power_units.json'))
 
 
 @app.route("/cooling")
@@ -87,7 +87,7 @@ def mouse():
 
 @app.route("/mousepads")
 def rug():
-    return render_template("mousepad.html", title="Rug", content=readJson('mousepads.json'))
+    return render_template("mousepads.html", title="Rug", content=readJson('mousepads.json'))
 
 
 @app.route("/headphones")
