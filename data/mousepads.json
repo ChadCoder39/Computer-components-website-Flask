@@ -1,10 +1,9 @@
-{
-  "mousepads": [
-    {"name": "SteelSeries QcK", "width": 320, "height": 270, "material": "Cloth", "price": 15},
-    {"name": "Corsair MM300", "width": 930, "height": 300, "material": "Textile-Weave", "price": 25},
-    {"name": "Razer Goliathus Speed", "width": 450, "height": 400, "material": "Soft", "price": 20},
-    {"name": "Logitech G240", "width": 340, "height": 280, "material": "Cloth", "price": 10},
-    {"name": "HyperX Fury S", "width": 900, "height": 420, "material": "Cloth", "price": 30},
-    {"name": "Cooler Master MP510", "width": 320, "height": 270, "material": "Cordura Fabric", "price": 22}
+[
+    {"name": "SteelSeries QcK", "width": 320, "height": 270, "material": "Cloth", "price": 15, "product_id" :25},
+    {"name": "Corsair MM300", "width": 930, "height": 300, "material": "Textile-Weave", "price": 25, "product_id" :26},
+    {"name": "Razer Goliathus Speed", "width": 450, "height": 400, "material": "Soft", "price": 20, "product_id" :27},
+    {"name": "Logitech G240", "width": 340, "height": 280, "material": "Cloth", "price": 10, "product_id" :28},
+    {"name": "HyperX Fury S", "width": 900, "height": 420, "material": "Cloth", "price": 30, "product_id" :29},
+    {"name": "Cooler Master MP510", "width": 320, "height": 270, "material": "Cordura Fabric", "price": 22, "product_id" :30}
   ]
-}
+

@@ -1,22 +1,22 @@
-{
-  "accessories": [
-    {"name": "Logitech G Pro X Mechanical Gaming Keyboard", "type": "Mechanical", "price": 120},
-    {"name": "Logitech G Pro Wireless Gaming Mouse", "type": "Wireless", "price": 150},
-    {"name": "SteelSeries QcK Gaming Surface", "type": "Mouse Pad", "price": 20},
-    {"name": "HyperX Cloud II Gaming Headset", "type": "Over-Ear", "price": 100},
-    {"name": "Razer DeathAdder Elite Gaming Mouse", "type": "Wired", "price": 70},
-    {"name": "Corsair K95 RGB Platinum XT Mechanical Keyboard", "type": "Mechanical", "price": 200},
-    {"name": "Apple AirPods Pro", "type": "Wireless Earbuds", "price": 250},
-    {"name": "Logitech MX Master 3", "type": "Wireless Mouse", "price": 100},
-    {"name": "Elgato Stream Deck", "type": "Streaming Controller", "price": 150},
-    {"name": "Roccat Vulcan 122 AIMO", "type": "Mechanical Gaming Keyboard", "price": 160},
-    {"name": "BenQ ZOWIE XL2540", "type": "Gaming Monitor", "price": 450},
-    {"name": "Corsair Void RGB Elite Wireless Headset", "type": "Wireless Gaming Headset", "price": 120},
-    {"name": "Logitech G Pro Flight X56 Rhino H.O.T.A.S.", "type": "Flight Controller", "price": 250},
-    {"name": "Anker Wireless Charger", "type": "Wireless Charging Pad", "price": 30},
-    {"name": "SteelSeries Arctis 7", "type": "Wireless Gaming Headset", "price": 150},
-    {"name": "Corsair Dark Core RGB/SE", "type": "Wireless/Wired Gaming Mouse", "price": 80},
-    {"name": "Razer BlackWidow Elite", "type": "Mechanical Gaming Keyboard", "price": 170},
-    {"name": "Sony WH-1000XM4", "type": "Noise-Canceling Wireless Headphones", "price": 350}
+
+  [
+    {"name": "Logitech G Pro X Mechanical Gaming Keyboard", "type": "Mechanical", "price": 120, "product_id" :61},
+    {"name": "Logitech G Pro Wireless Gaming Mouse", "type": "Wireless", "price": 150, "product_id" :62},
+    {"name": "SteelSeries QcK Gaming Surface", "type": "Mouse Pad", "price": 20, "product_id" :63},
+    {"name": "HyperX Cloud II Gaming Headset", "type": "Over-Ear", "price": 100, "product_id" :64},
+    {"name": "Razer DeathAdder Elite Gaming Mouse", "type": "Wired", "price": 70, "product_id" :65},
+    {"name": "Corsair K95 RGB Platinum XT Mechanical Keyboard", "type": "Mechanical", "price": 200, "product_id" :66},
+    {"name": "Apple AirPods Pro", "type": "Wireless Earbuds", "price": 250, "product_id" :67},
+    {"name": "Logitech MX Master 3", "type": "Wireless Mouse", "price": 100, "product_id" :68},
+    {"name": "Elgato Stream Deck", "type": "Streaming Controller", "price": 150, "product_id" :69},
+    {"name": "Roccat Vulcan 122 AIMO", "type": "Mechanical Gaming Keyboard", "price": 160, "product_id" :70},
+    {"name": "BenQ ZOWIE XL2540", "type": "Gaming Monitor", "price": 450, "product_id" :71},
+    {"name": "Corsair Void RGB Elite Wireless Headset", "type": "Wireless Gaming Headset", "price": 120, "product_id" :72},
+    {"name": "Logitech G Pro Flight X56 Rhino H.O.T.A.S.", "type": "Flight Controller", "price": 250, "product_id" :73},
+    {"name": "Anker Wireless Charger", "type": "Wireless Charging Pad", "price": 30, "product_id" :74},
+    {"name": "SteelSeries Arctis 7", "type": "Wireless Gaming Headset", "price": 150, "product_id" :75},
+    {"name": "Corsair Dark Core RGB/SE", "type": "Wireless/Wired Gaming Mouse", "price": 80, "product_id" :76},
+    {"name": "Razer BlackWidow Elite", "type": "Mechanical Gaming Keyboard", "price": 170, "product_id" :77},
+    {"name": "Sony WH-1000XM4", "type": "Noise-Canceling Wireless Headphones", "price": 350, "product_id" :78}
   ]
-}
+

@@ -1,10 +1,9 @@
-{
-  "processors": [
-    {"name": "Intel Core i5-9400F", "cores": 6, "threads": 6, "clock_speed": "2.9 GHz", "price": 200},
-    {"name": "AMD Ryzen 7 3700X", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 330},
-    {"name": "Intel Core i9-9900K", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 500},
-    {"name": "AMD Ryzen 5 3600X", "cores": 6, "threads": 12, "clock_speed": "3.8 GHz", "price": 250},
-    {"name": "Intel Core i7-10700K", "cores": 8, "threads": 16, "clock_speed": "3.8 GHz", "price": 400},
-    {"name": "AMD Ryzen 3 3300X", "cores": 4, "threads": 8, "clock_speed": "3.8 GHz", "price": 150}
+[
+    {"name": "Intel Core i5-9400F", "cores": 6, "threads": 6, "clock_speed": "2.9 GHz", "price": 200, "product_id" :13},
+    {"name": "AMD Ryzen 7 3700X", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 330, "product_id" :14},
+    {"name": "Intel Core i9-9900K", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 500, "product_id" :15},
+    {"name": "AMD Ryzen 5 3600X", "cores": 6, "threads": 12, "clock_speed": "3.8 GHz", "price": 250, "product_id" :16},
+    {"name": "Intel Core i7-10700K", "cores": 8, "threads": 16, "clock_speed": "3.8 GHz", "price": 400, "product_id" :17},
+    {"name": "AMD Ryzen 3 3300X", "cores": 4, "threads": 8, "clock_speed": "3.8 GHz", "price": 150, "product_id" :18}
   ]
-}
+

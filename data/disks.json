@@ -1,10 +1,9 @@
-{
-  "discs": [
-    {"name": "Samsung 970 EVO", "capacity": "500GB", "type": "NVMe SSD", "price": 100},
-    {"name": "Seagate Barracuda", "capacity": "2TB", "type": "HDD", "price": 60},
-    {"name": "WD Blue 1TB", "capacity": "1TB", "type": "SSD", "price": 80},
-    {"name": "Crucial MX500", "capacity": "1TB", "type": "SSD", "price": 90},
-    {"name": "Kingston A2000", "capacity": "500GB", "type": "NVMe SSD", "price": 70},
-    {"name": "Toshiba P300", "capacity": "3TB", "type": "HDD", "price": 80}
+ [
+    {"name": "Samsung 970 EVO", "capacity": "500GB", "type": "NVMe SSD", "price": 100, "product_id" :43},
+    {"name": "Seagate Barracuda", "capacity": "2TB", "type": "HDD", "price": 60, "product_id" :44},
+    {"name": "WD Blue 1TB", "capacity": "1TB", "type": "SSD", "price": 80, "product_id" :45},
+    {"name": "Crucial MX500", "capacity": "1TB", "type": "SSD", "price": 90, "product_id" :46},
+    {"name": "Kingston A2000", "capacity": "500GB", "type": "NVMe SSD", "price": 70, "product_id" :47},
+    {"name": "Toshiba P300", "capacity": "3TB", "type": "HDD", "price": 80, "product_id" :48}
   ]
-}
+
