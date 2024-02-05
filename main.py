@@ -50,7 +50,7 @@ def motherboards():
     return render_template("motherboards.html", title="Motherboards", content=readJson('motherboards.json'))
 
 
-@app.route("/power_unit")
+@app.route("/power_units")
 def power_unit():
     return render_template("power_unit.html", title="Power Unit", content=readJson('power_unit.json'))
 
@@ -85,9 +85,9 @@ def mouse():
     return render_template("mouses.html", title="Mouses", content=readJson('mouses.json'))
 
 
-@app.route("/mousepad")
+@app.route("/mousepads")
 def rug():
-    return render_template("mousepad.html", title="Rug", content=readJson('mousepad.json'))
+    return render_template("mousepad.html", title="Rug", content=readJson('mousepads.json'))
 
 
 @app.route("/headphones")
