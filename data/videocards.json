@@ -1,8 +1,11 @@
-[
-  {"name": "NVIDIA GeForce GTX 1080", "memory": "8GB GDDR5X", "price": 500},
-  {"name": "AMD Radeon RX 5700 XT", "memory": "8GB GDDR6", "price": 450},
-  {"name": "NVIDIA GeForce RTX 3070", "memory": "8GB GDDR6", "price": 600},
-  {"name": "AMD Radeon RX 5600 XT", "memory": "6GB GDDR6", "price": 300},
-  {"name": "NVIDIA GeForce GTX 1660 Super", "memory": "6GB GDDR5", "price": 250},
-  {"name": "AMD Radeon RX 5500 XT", "memory": "4GB GDDR6", "price": 200}
-]
+
+ [
+    {"name": "NVIDIA GeForce GTX 1080", "memory": "8GB GDDR5X", "price": 500, "product_id" : 1},
+    {"name": "AMD Radeon RX 5700 XT", "memory": "8GB GDDR6", "price": 450, "product_id" : 2},
+    {"name": "NVIDIA GeForce RTX 3070", "memory": "8GB GDDR6", "price": 600, "product_id" :3},
+    {"name": "AMD Radeon RX 5600 XT", "memory": "6GB GDDR6", "price": 300, "product_id" :4},
+    {"name": "NVIDIA GeForce GTX 1660 Super", "memory": "6GB GDDR5", "price": 250, "product_id" :5},
+    {"name": "AMD Radeon RX 5500 XT", "memory": "4GB GDDR6", "price": 200, "product_id" :6}
+  ]
+
+

@@ -1,10 +1,9 @@
-{
-  "cases": [
-    {"name": "NZXT H510", "form_factor": "Mid Tower", "color": "Black", "price": 70},
-    {"name": "Fractal Design Meshify C", "form_factor": "Mid Tower", "color": "White", "price": 90},
-    {"name": "Phanteks Eclipse P300", "form_factor": "Mid Tower", "color": "Black", "price": 60},
-    {"name": "Corsair Crystal 570X", "form_factor": "Mid Tower", "color": "RGB", "price": 150},
-    {"name": "NZXT H710i", "form_factor": "Full Tower", "color": "Black", "price": 170},
-    {"name": "Lian Li PC-O11 Dynamic", "form_factor": "Mid Tower", "color": "White", "price": 120}
+ [
+    {"name": "NZXT H510", "form_factor": "Mid Tower", "color": "Black", "price": 70, "product_id" :55},
+    {"name": "Fractal Design Meshify C", "form_factor": "Mid Tower", "color": "White", "price": 90, "product_id" :56},
+    {"name": "Phanteks Eclipse P300", "form_factor": "Mid Tower", "color": "Black", "price": 60, "product_id" :57},
+    {"name": "Corsair Crystal 570X", "form_factor": "Mid Tower", "color": "RGB", "price": 150, "product_id" :58},
+    {"name": "NZXT H710i", "form_factor": "Full Tower", "color": "Black", "price": 170, "product_id" :59},
+    {"name": "Lian Li PC-O11 Dynamic", "form_factor": "Mid Tower", "color": "White", "price": 120, "product_id" :60}
   ]
-}
+

@@ -1,10 +1,9 @@
-{
-  "motherboards": [
-    {"name": "ASUS ROG Strix B450-F", "socket": "AM4", "form_factor": "ATX", "price": 120},
-    {"name": "MSI MPG Z390 Gaming Edge AC", "socket": "LGA1151", "form_factor": "ATX", "price": 180},
-    {"name": "Gigabyte B550 AORUS Pro", "socket": "AM4", "form_factor": "ATX", "price": 150},
-    {"name": "ASRock B450M PRO4", "socket": "AM4", "form_factor": "Micro-ATX", "price": 80},
-    {"name": "ASUS Prime X570-P", "socket": "AM4", "form_factor": "ATX", "price": 200},
-    {"name": "MSI MAG B550 TOMAHAWK", "socket": "AM4", "form_factor": "ATX", "price": 160}
+[
+    {"name": "ASUS ROG Strix B450-F", "socket": "AM4", "form_factor": "ATX", "price": 120, "product_id" :31},
+    {"name": "MSI MPG Z390 Gaming Edge AC", "socket": "LGA1151", "form_factor": "ATX", "price": 180, "product_id" :32},
+    {"name": "Gigabyte B550 AORUS Pro", "socket": "AM4", "form_factor": "ATX", "price": 150, "product_id" :33},
+    {"name": "ASRock B450M PRO4", "socket": "AM4", "form_factor": "Micro-ATX", "price": 80, "product_id" :34},
+    {"name": "ASUS Prime X570-P", "socket": "AM4", "form_factor": "ATX", "price": 200, "product_id" :35},
+    {"name": "MSI MAG B550 TOMAHAWK", "socket": "AM4", "form_factor": "ATX", "price": 160, "product_id" :36}
   ]
-}
+
