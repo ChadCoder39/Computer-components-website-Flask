@@ -31,7 +31,7 @@ def processors():
 
 @app.route("/ram")
 def ram():
-    return render_template("ram.html", title="RAM", content="RAM Content")
+    return render_template("ram.html", title="RAM", content=readJson('ram.json'))
 
 @app.route("/discs")
 def discs():

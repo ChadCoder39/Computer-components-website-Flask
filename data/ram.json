@@ -1,10 +1,9 @@
-{
-  "ram": [
-    {"name": "Corsair Vengeance LPX", "capacity": "16GB (2 x 8GB)", "speed": "3200 MHz", "price": 80},
-    {"name": "G.Skill Ripjaws V", "capacity": "32GB (2 x 16GB)", "speed": "3600 MHz", "price": 150},
-    {"name": "Crucial Ballistix Sport LT", "capacity": "8GB (2 x 4GB)", "speed": "2666 MHz", "price": 60},
-    {"name": "Kingston HyperX Fury", "capacity": "64GB (4 x 16GB)", "speed": "3200 MHz", "price": 300},
-    {"name": "Team T-FORCE Vulcan Z", "capacity": "16GB (2 x 8GB)", "speed": "3000 MHz", "price": 70},
-    {"name": "ADATA XPG Z1", "capacity": "32GB (2 x 16GB)", "speed": "3000 MHz", "price": 120}
-  ]
-}
+[
+  {"name": "Corsair Vengeance LPX", "capacity": "16GB (2 x 8GB)", "speed": "3200 MHz", "price": 80},
+  {"name": "G.Skill Ripjaws V", "capacity": "32GB (2 x 16GB)", "speed": "3600 MHz", "price": 150},
+  {"name": "Crucial Ballistix Sport LT", "capacity": "8GB (2 x 4GB)", "speed": "2666 MHz", "price": 60},
+  {"name": "Kingston HyperX Fury", "capacity": "64GB (4 x 16GB)", "speed": "3200 MHz", "price": 300},
+  {"name": "Team T-FORCE Vulcan Z", "capacity": "16GB (2 x 8GB)", "speed": "3000 MHz", "price": 70},
+  {"name": "ADATA XPG Z1", "capacity": "32GB (2 x 16GB)", "speed": "3000 MHz", "price": 120}
+]
+
