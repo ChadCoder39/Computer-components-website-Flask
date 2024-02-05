@@ -19,7 +19,9 @@
                             <li><a href="#" class="nav-link px-2 text-secondary">Main</a></li>
                             <li><a href="#" class="nav-link px-2 text-white">Loyality program</a></li>
                             <li><a href="#" class="nav-link px-2 text-white">Contacts</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Products</a></li>
+                            <li>
+                                {% include 'components/topbar-products-dropdown.html' %}
+                            </li>
                         </ul>
                         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                             <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">

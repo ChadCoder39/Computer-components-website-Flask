@@ -32,7 +32,7 @@ def video_cards():
 
 @app.route("/processors")
 def processors():
-    return render_template("processors.html", title="Processors", content=readJson('ram.json'))
+    return render_template("processors.html", title="Processors", content=readJson('processors.json'))
 
 
 @app.route("/ram")
@@ -40,7 +40,7 @@ def ram():
     return render_template("ram.html", title="RAM", content=readJson('ram.json'))
 
 
-@app.route("/discs")
+@app.route("/disks")
 def discs():
     return render_template("discs.html", title="Discs", content=readJson('discs.json'))
 
