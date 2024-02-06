@@ -1,8 +1,8 @@
  [
-    {"name": "EVGA SuperNOVA 650 G5", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 90, "product_id" :19},
-    {"name": "Corsair RM750x", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 120, "product_id" :20},
-    {"name": "Seasonic Focus GX-550", "wattage": 550, "efficiency": "80 PLUS Gold", "price": 80, "product_id" :21},
-    {"name": "Thermaltake Toughpower GF1 750W", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 100, "product_id" :22},
-    {"name": "Cooler Master MWE Gold 650", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 85, "product_id" :23},
-    {"name": "be quiet! Straight Power 11 850W", "wattage": 850, "efficiency": "80 PLUS Gold", "price": 150, "product_id" :24}
+    {"name": "EVGA SuperNOVA 650 G5", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 90, "product_id" :19, "img": "https://hotline.ua/img/tx/287/2877696785.jpg"},
+    {"name": "Corsair RM750x", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 120, "product_id" :20, "img": "https://hotline.ua/img/tx/983/983197635.jpg"},
+    {"name": "Seasonic Focus GX-550", "wattage": 550, "efficiency": "80 PLUS Gold", "price": 80, "product_id" :21, "img": "https://hotline.ua/img/tx/436/4366136465.jpg"},
+    {"name": "Thermaltake Toughpower GF1 750W", "wattage": 750, "efficiency": "80 PLUS Gold", "price": 100, "product_id" :22, "img": "https://hotline.ua/img/tx/436/4361018295.jpg"},
+    {"name": "Cooler Master MWE Gold 650", "wattage": 650, "efficiency": "80 PLUS Gold", "price": 85, "product_id" :23, "img": "https://hotline.ua/img/tx/436/4362109555.jpg"},
+    {"name": "be quiet! Straight Power 11 850W", "wattage": 850, "efficiency": "80 PLUS Gold", "price": 150, "product_id" :24, "img": "https://hotline.ua/img/tx/220/2206919535.jpg"}
   ]

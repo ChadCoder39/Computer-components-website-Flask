@@ -1,9 +1,9 @@
  [
-    {"name": "Noctua NH-D15", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 90, "product_id" :49},
-    {"name": "NZXT Kraken X63", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 150, "product_id" :50},
-    {"name": "Cooler Master Hyper 212 RGB", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 40, "product_id" :51},
-    {"name": "Corsair H100i RGB PLATINUM SE", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 160, "product_id" :52},
-    {"name": "Deepcool GAMMAXX GT", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 35, "product_id" :53},
-    {"name": "Arctic Liquid Freezer II 240", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 90, "product_id" :54}
+    {"name": "Noctua NH-D15", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 90, "product_id" :49, "img": "https://hotline.ua/img/tx/629/629811385.jpg"},
+    {"name": "NZXT Kraken X63", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 150, "product_id" :50, "img": "https://hotline.ua/img/tx/273/2731167445.jpg"},
+    {"name": "Cooler Master Hyper 212 RGB", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 40, "product_id" :51, "img": "https://hotline.ua/img/tx/344/3443905675.jpg"},
+    {"name": "Corsair H100i RGB PLATINUM SE", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 160, "product_id" :52, "img": "https://hotline.ua/img/tx/202/2029498465.jpg"},
+    {"name": "Deepcool GAMMAXX GT", "type": "Air Cooler", "compatibility": "LGA1151, AM4", "price": 35, "product_id" :53, "img": "https://hotline.ua/img/tx/199/1997119615.jpg"},
+    {"name": "Arctic Liquid Freezer II 240", "type": "Liquid Cooler", "compatibility": "LGA1200, AM4", "price": 90, "product_id" :54, "img": "https://hotline.ua/img/tx/436/4360196235.jpg"}
   ]
 

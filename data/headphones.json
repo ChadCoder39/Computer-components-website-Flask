@@ -1,9 +1,9 @@
 [
-    {"name": "Sony WH-1000XM4", "type": "Over-Ear", "connection": "Wireless", "price": 300, "product_id": 79},
-    {"name": "Bose QuietComfort 35 II", "type": "Over-Ear", "connection": "Wireless", "price": 250, "product_id": 80},
-    {"name": "Sennheiser HD 660 S", "type": "Over-Ear", "connection": "Wired", "price": 400, "product_id": 81},
-    {"name": "HyperX Cloud II", "type": "Over-Ear", "connection": "Wired", "price": 100, "product_id": 82},
-    {"name": "SteelSeries Arctis Pro", "type": "In-Ear", "connection": "Wireless", "price": 350, "product_id": 83},
-    {"name": "Audio-Technica ATH-M50x", "type": "In-Ear", "connection": "Wired", "price": 150, "product_id":84}
+    {"name": "Sony WH-1000XM4", "type": "Over-Ear", "connection": "Wireless", "price": 300, "product_id": 79, "img": "https://hotline.ua/img/tx/349/3491309465.jpg"},
+    {"name": "Bose QuietComfort 35 II", "type": "Over-Ear", "connection": "Wireless", "price": 250, "product_id": 80, "img": "https://hotline.ua/img/tx/240/2406954625.jpg"},
+    {"name": "Sennheiser HD 660 S", "type": "Over-Ear", "connection": "Wired", "price": 400, "product_id": 81, "img": "https://hotline.ua/img/tx/425/4252417185.jpg"},
+    {"name": "HyperX Cloud II", "type": "Over-Ear", "connection": "Wired", "price": 100, "product_id": 82, "img": "https://hotline.ua/img/tx/422/4228025875.jpg"},
+    {"name": "SteelSeries Arctis Pro", "type": "In-Ear", "connection": "Wireless", "price": 350, "product_id": 83, "img": "https://hotline.ua/img/tx/169/1693248415.jpg"},
+    {"name": "Audio-Technica ATH-M50x", "type": "In-Ear", "connection": "Wired", "price": 150, "product_id":84, "img": "https://hotline.ua/img/tx/262/2625329895.jpg"}
 ]
 

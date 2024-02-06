@@ -1,11 +1,11 @@
 
  [
-    {"name": "Corsair Vengeance LPX", "capacity": "16GB (2 x 8GB)", "speed": "3200 MHz", "price": 80, "product_id" :7},
-    {"name": "G.Skill Ripjaws V", "capacity": "32GB (2 x 16GB)", "speed": "3600 MHz", "price": 150, "product_id" :8},
-    {"name": "Crucial Ballistix Sport LT", "capacity": "8GB (2 x 4GB)", "speed": "2666 MHz", "price": 60, "product_id" :9},
-    {"name": "Kingston HyperX Fury", "capacity": "64GB (4 x 16GB)", "speed": "3200 MHz", "price": 300, "product_id" :10},
-    {"name": "Team T-FORCE Vulcan Z", "capacity": "16GB (2 x 8GB)", "speed": "3000 MHz", "price": 70, "product_id" :11},
-    {"name": "ADATA XPG Z1", "capacity": "32GB (2 x 16GB)", "speed": "3000 MHz", "price": 120, "product_id" :12}
+    {"name": "Corsair Vengeance LPX", "capacity": "16GB (2 x 8GB)", "speed": "3200 MHz", "price": 80, "product_id" :7, "img": "https://hotline.ua/img/tx/435/4359936675.jpg"},
+    {"name": "G.Skill Ripjaws V", "capacity": "32GB (2 x 16GB)", "speed": "3600 MHz", "price": 150, "product_id" :8, "img": "https://hotline.ua/img/tx/440/4400124435.jpg"},
+    {"name": "Crucial Ballistix Sport LT", "capacity": "8GB (2 x 4GB)", "speed": "2666 MHz", "price": 60, "product_id" :9, "img": "https://hotline.ua/img/tx/376/3767243945.jpg"},
+    {"name": "Kingston HyperX Fury", "capacity": "64GB (4 x 16GB)", "speed": "3200 MHz", "price": 300, "product_id" :10, "img": "https://hotline.ua/img/tx/427/4275069595.jpg"},
+    {"name": "Team T-FORCE Vulcan Z", "capacity": "16GB (2 x 8GB)", "speed": "3000 MHz", "price": 70, "product_id" :11, "img": "https://hotline.ua/img/tx/435/4359938315.jpg"},
+    {"name": "ADATA XPG Z1", "capacity": "32GB (2 x 16GB)", "speed": "3000 MHz", "price": 120, "product_id" :12, "img": "https://hotline.ua/img/tx/156/1564824345.jpg"}
   ]
 
 
