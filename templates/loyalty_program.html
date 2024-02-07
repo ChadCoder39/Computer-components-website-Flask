@@ -1,1 +1,28 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+
+{% block app_title %}Loyalty Program{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1 class="mt-5">Loyalty Program</h1>
+        <p class="lead">Welcome to our loyalty program! Earn rewards with every purchase.</p>
+        <div class="mt-4">
+            <h2>Program Benefits</h2>
+            <ul>
+                <li><strong>Exclusive Discounts:</strong> Enjoy special discounts only available to members.</li>
+                <li><strong>Reward Points:</strong> Earn points for every purchase and redeem them for rewards.</li>
+                <li><strong>Early Access:</strong> Get early access to sales and promotions.</li>
+                <li><strong>Personalized Offers:</strong> Receive personalized offers tailored to your preferences.</li>
+            </ul>
+        </div>
+        <div class="mt-4">
+            <h2>How to Join</h2>
+            <p>To join our loyalty program, simply create an account on our website and start earning points immediately!</p>
+        </div>
+        <div class="mt-4">
+            <h2>Membership Tiers</h2>
+            <p>We offer different membership tiers based on your purchase history and loyalty level. The more you spend, the higher your tier and the greater your rewards!</p>
+        </div>
+    </div>
+{% endblock %}
+

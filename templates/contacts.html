@@ -1,1 +1,29 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+
+{% block app_title %}Contacts{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1 class="mt-5">Contact Us</h1>
+        <p class="lead">Get in touch with us for any inquiries or support.</p>
+        <div class="mt-4">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need assistance, please feel free to contact us using the information below:</p>
+            <ul>
+                <li><strong>Email:</strong> info@example.com</li>
+                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <li><strong>Address:</strong> 123 Main St, City, Country</li>
+            </ul>
+        </div>
+        <div class="mt-4">
+            <h2>Key Contacts</h2>
+            <p>For specific inquiries, you can reach out to our key contacts:</p>
+            <ul>
+                <li><strong>Bohdan:</strong> bohdan@example.com</li>
+                <li><strong>Customer Support:</strong> support@example.com</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
+
