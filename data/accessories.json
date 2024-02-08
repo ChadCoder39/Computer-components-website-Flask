@@ -1,17 +1,17 @@
 
   [
-    {"name": "Logitech G Pro X Mechanical Gaming Keyboard", "type": "Mechanical", "price": 120, "product_id" :61, "img": "https://hotline.ua/img/tx/411/4113156175.jpg"},
-    {"name": "Logitech G Pro Wireless Gaming Mouse", "type": "Wireless", "price": 150, "product_id" :62, "img": "https://hotline.ua/img/tx/265/2652527685.jpg"},
-    {"name": "SteelSeries QcK Gaming Surface", "type": "Mouse Pad", "price": 20, "product_id" :63, "img": "https://hotline.ua/img/tx/202/2029360215.jpg"},
-    {"name": "HyperX Cloud II Gaming Headset", "type": "Over-Ear", "price": 100, "product_id" :64, "img": "https://hotline.ua/img/tx/422/4228025875.jpg"},
-    {"name": "Razer DeathAdder Elite Gaming Mouse", "type": "Wired", "price": 70, "product_id" :65, "img": "https://hotline.ua/img/tx/380/3809223675.jpg"},
-    {"name": "Corsair K95 RGB Platinum XT Mechanical Keyboard", "type": "Mechanical", "price": 200, "product_id" :66, "img": "https://hotline.ua/img/tx/219/2199337795.jpg"},
-    {"name": "Apple AirPods Pro", "type": "Wireless Earbuds", "price": 250, "product_id" :67, "img": "https://hotline.ua/img/tx/211/2113157695.jpg"},
-    {"name": "Logitech MX Master 3", "type": "Wireless Mouse", "price": 100, "product_id" :68, "img": "https://hotline.ua/img/tx/265/2652535265.jpg"},
-    {"name": "Elgato Stream Deck", "type": "Streaming Controller", "price": 150, "product_id" :69, "img": "https://hotline.ua/img/tx/394/3947025035.jpg"},
-    {"name": "Roccat Vulcan 122 AIMO", "type": "Mechanical Gaming Keyboard", "price": 160, "product_id" :70, "img": "https://hotline.ua/img/tx/269/2690891555.jpg"},
-    {"name": "BenQ ZOWIE XL2540", "type": "Gaming Monitor", "price": 450, "product_id" :71, "img": "https://hotline.ua/img/tx/333/3332275975.jpg"},
-    {"name": "Corsair Void RGB Elite Wireless Headset", "type": "Wireless Gaming Headset", "price": 120, "product_id" :72, "img": "https://hotline.ua/img/tx/332/3325653835.jpg"},
-    {"name": "Logitech G Pro Flight X56 Rhino H.O.T.A.S.", "type": "Flight Controller", "price": 250, "product_id" :73, "img": "https://hotline.ua/img/tx/181/1819279575.jpg"}
+    { "typename" : "accessory", "name": "Logitech G Pro X Mechanical Gaming Keyboard", "type": "Mechanical", "price": 120, "product_id" :61, "img": "https://hotline.ua/img/tx/411/4113156175.jpg"},
+    {"typename" : "accessory","name": "Logitech G Pro Wireless Gaming Mouse", "type": "Wireless", "price": 150, "product_id" :62, "img": "https://hotline.ua/img/tx/265/2652527685.jpg"},
+    {"typename" : "accessory","name": "SteelSeries QcK Gaming Surface", "type": "Mouse Pad", "price": 20, "product_id" :63, "img": "https://hotline.ua/img/tx/202/2029360215.jpg"},
+    {"typename" : "accessory","name": "HyperX Cloud II Gaming Headset", "type": "Over-Ear", "price": 100, "product_id" :64, "img": "https://hotline.ua/img/tx/422/4228025875.jpg"},
+    {"typename" : "accessory","name": "Razer DeathAdder Elite Gaming Mouse", "type": "Wired", "price": 70, "product_id" :65, "img": "https://hotline.ua/img/tx/380/3809223675.jpg"},
+    {"typename" : "accessory","name": "Corsair K95 RGB Platinum XT Mechanical Keyboard", "type": "Mechanical", "price": 200, "product_id" :66, "img": "https://hotline.ua/img/tx/219/2199337795.jpg"},
+    {"typename" : "accessory","name": "Apple AirPods Pro", "type": "Wireless Earbuds", "price": 250, "product_id" :67, "img": "https://hotline.ua/img/tx/211/2113157695.jpg"},
+    {"typename" : "accessory","name": "Logitech MX Master 3", "type": "Wireless Mouse", "price": 100, "product_id" :68, "img": "https://hotline.ua/img/tx/265/2652535265.jpg"},
+    {"typename" : "accessory","name": "Elgato Stream Deck", "type": "Streaming Controller", "price": 150, "product_id" :69, "img": "https://hotline.ua/img/tx/394/3947025035.jpg"},
+    {"typename" : "accessory","name": "Roccat Vulcan 122 AIMO", "type": "Mechanical Gaming Keyboard", "price": 160, "product_id" :70, "img": "https://hotline.ua/img/tx/269/2690891555.jpg"},
+    {"typename" : "accessory","name": "BenQ ZOWIE XL2540", "type": "Gaming Monitor", "price": 450, "product_id" :71, "img": "https://hotline.ua/img/tx/333/3332275975.jpg"},
+    {"typename" : "accessory","name": "Corsair Void RGB Elite Wireless Headset", "type": "Wireless Gaming Headset", "price": 120, "product_id" :72, "img": "https://hotline.ua/img/tx/332/3325653835.jpg"},
+    {"typename" : "accessory","name": "Logitech G Pro Flight X56 Rhino H.O.T.A.S.", "type": "Flight Controller", "price": 250, "product_id" :73, "img": "https://hotline.ua/img/tx/181/1819279575.jpg"}
   ]
 

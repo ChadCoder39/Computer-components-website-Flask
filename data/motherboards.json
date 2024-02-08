@@ -1,9 +1,9 @@
 [
-    {"name": "ASUS ROG Strix B450-F", "socket": "AM4", "form_factor": "ATX", "price": 120, "product_id" :31, "img": "https://hotline.ua/img/tx/269/2694823205.jpg"},
-    {"name": "MSI MPG Z390 Gaming Edge AC", "socket": "LGA1151", "form_factor": "ATX", "price": 180, "product_id" :32, "img": "https://hotline.ua/img/tx/180/1807199035.jpg"},
-    {"name": "Gigabyte B550 AORUS Pro", "socket": "AM4", "form_factor": "ATX", "price": 150, "product_id" :33, "img": "https://hotline.ua/img/tx/240/2406998495.jpg"},
-    {"name": "ASRock B450M PRO4", "socket": "AM4", "form_factor": "Micro-ATX", "price": 80, "product_id" :34, "img": "https://hotline.ua/img/tx/176/1764121765.jpg"},
-    {"name": "ASUS Prime X570-P", "socket": "AM4", "form_factor": "ATX", "price": 200, "product_id" :35, "img": "https://hotline.ua/img/tx/199/1996998935.jpg"},
-    {"name": "MSI MAG B550 TOMAHAWK", "socket": "AM4", "form_factor": "ATX", "price": 160, "product_id" :36, "img": "https://hotline.ua/img/tx/389/3891293745.jpg"}
+    {"typename" : "motherboard","name": "ASUS ROG Strix B450-F", "socket": "AM4", "form_factor": "ATX", "price": 120, "product_id" :31, "img": "https://hotline.ua/img/tx/269/2694823205.jpg"},
+    {"typename" : "motherboard","name": "MSI MPG Z390 Gaming Edge AC", "socket": "LGA1151", "form_factor": "ATX", "price": 180, "product_id" :32, "img": "https://hotline.ua/img/tx/180/1807199035.jpg"},
+    {"typename" : "motherboard","name": "Gigabyte B550 AORUS Pro", "socket": "AM4", "form_factor": "ATX", "price": 150, "product_id" :33, "img": "https://hotline.ua/img/tx/240/2406998495.jpg"},
+    {"typename" : "motherboard","name": "ASRock B450M PRO4", "socket": "AM4", "form_factor": "Micro-ATX", "price": 80, "product_id" :34, "img": "https://hotline.ua/img/tx/176/1764121765.jpg"},
+    {"typename" : "motherboard","name": "ASUS Prime X570-P", "socket": "AM4", "form_factor": "ATX", "price": 200, "product_id" :35, "img": "https://hotline.ua/img/tx/199/1996998935.jpg"},
+    {"typename" : "motherboard","name": "MSI MAG B550 TOMAHAWK", "socket": "AM4", "form_factor": "ATX", "price": 160, "product_id" :36, "img": "https://hotline.ua/img/tx/389/3891293745.jpg"}
   ]
 

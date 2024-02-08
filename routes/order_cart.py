@@ -17,7 +17,7 @@ def add_to_cart(product_id):
     return redirect(url_for('cart'))
 
 
-@app.route("/cart")
+@app.route("/cart", methods =["GET"])
 def cart():
     cart = session.get('cart', [])
     return render_template(

@@ -1,9 +1,9 @@
 [
-    {"name": "Logitech G Pro X", "type": "Wired", "dpi": {"min": 100, "max": 16000}, "weight": 83, "price": 70, "product_id": 201, "img": "https://hotline.ua/img/tx/346/3468486465.jpg"},
-    {"name": "Razer DeathAdder Elite", "type": "Wired", "dpi": {"min": 200, "max": 16000}, "weight": 105, "price": 60, "product_id": 202, "img": "https://hotline.ua/img/tx/363/3638139285.jpg"},
-    {"name": "SteelSeries Rival 600", "type": "Wired", "dpi": {"min": 200, "max": 12000}, "weight": 96, "price": 80, "product_id": 203, "img": "https://hotline.ua/img/tx/432/4320575465.jpg"},
-    {"name": "Corsair Dark Core RGB/SE", "type": "Wireless", "dpi": {"min": 200, "max": 16000}, "weight": 128, "price": 90, "product_id": 204, "img": "https://hotline.ua/img/tx/269/2694477445.jpg"},
-    {"name": "Logitech G Pro Wireless", "type": "Wireless", "dpi": {"min": 200, "max": 16000}, "weight": 80, "price": 150, "product_id": 205, "img": "https://hotline.ua/img/tx/265/2652527685.jpg"},
-    {"name": "Razer Naga Trinity", "type": "Wired", "dpi": {"min": 200, "max": 16000}, "weight": 120, "price": 80, "product_id": 206, "img": "https://hotline.ua/img/tx/161/1619960765.jpg"}
+    {"typename" : "mouse","name": "Logitech G Pro X", "type": "Wired", "dpi": {"min": 100, "max": 16000}, "weight": 83, "price": 70, "product_id": 201, "img": "https://hotline.ua/img/tx/346/3468486465.jpg"},
+    {"typename" : "mouse","name": "Razer DeathAdder Elite", "type": "Wired", "dpi": {"min": 200, "max": 16000}, "weight": 105, "price": 60, "product_id": 202, "img": "https://hotline.ua/img/tx/363/3638139285.jpg"},
+    {"typename" : "mouse","name": "SteelSeries Rival 600", "type": "Wired", "dpi": {"min": 200, "max": 12000}, "weight": 96, "price": 80, "product_id": 203, "img": "https://hotline.ua/img/tx/432/4320575465.jpg"},
+    {"typename" : "mouse","name": "Corsair Dark Core RGB/SE", "type": "Wireless", "dpi": {"min": 200, "max": 16000}, "weight": 128, "price": 90, "product_id": 204, "img": "https://hotline.ua/img/tx/269/2694477445.jpg"},
+    {"typename" : "mouse","name": "Logitech G Pro Wireless", "type": "Wireless", "dpi": {"min": 200, "max": 16000}, "weight": 80, "price": 150, "product_id": 205, "img": "https://hotline.ua/img/tx/265/2652527685.jpg"},
+    {"typename" : "mouse","name": "Razer Naga Trinity", "type": "Wired", "dpi": {"min": 200, "max": 16000}, "weight": 120, "price": 80, "product_id": 206, "img": "https://hotline.ua/img/tx/161/1619960765.jpg"}
 ]
 
