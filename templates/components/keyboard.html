@@ -1,4 +1,4 @@
-<div class="card shadow-sm p-3 rounded" style="width: 18rem; height: 42rem;">
+<div id="product" class="card shadow-sm p-3 rounded" style="width: 18rem; height: 42rem;">
     <img src="{{ keyboard.img }}" class="card-img-top" alt="{{ keyboard.name }}">
     <div class="card-body">
         <h5 class="card-title">{{ keyboard.name }}</h5>
@@ -9,6 +9,6 @@
     </div>
     <div class="p-3">
         <p><span class="badge bg-dark fs-5">{{ keyboard.price }} $</span></p>
-        <a href="#" class="btn btn-primary">Add to cart</a>
+        <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ keyboard.product_id }}">Add to cart</a>
     </div>
 </div>
