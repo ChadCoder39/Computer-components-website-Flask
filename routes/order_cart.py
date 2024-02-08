@@ -9,7 +9,7 @@ def order_cart():
         content="Order Cart Content"
     )
 
-@app.route("/add_to_cart/<product_id>")
+@app.route("/add_to_cart/<product_id>", methods=["POST"])
 def add_to_cart(product_id):
     cart = session.get('cart', [])
     cart.append(product_id)
@@ -17,7 +17,7 @@ def add_to_cart(product_id):
     return redirect(url_for('cart'))
 
 
-@app.route("/cart")
+@app.route("/cart", methods=["GET"])
 def cart():
     cart = session.get('cart', [])
     return render_template(
