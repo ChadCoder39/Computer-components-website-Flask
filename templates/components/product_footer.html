@@ -18,5 +18,7 @@
     </div>
 {% else %}
     <p><span class="badge bg-dark fs-5">{{ product.price }} $</span></p>
-    <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ product.product_id }}"><span class="bi bi-bag-plus-fill"></span>&nbsp;Add to cart</a>
+    <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ product.product_id }}">
+        <span class="bi bi-bag-plus-fill"></span>&nbsp;<span id="add-to-cart-text">Add to cart</span>
+    </a>
 {% endif %}

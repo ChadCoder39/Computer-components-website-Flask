@@ -6,5 +6,9 @@ export const httpFetchCart = async() => {
 }
 
 export const httpAddToCart = async(productId) => {
-    return await axios.post(`${SERVER_BASE}/add_to_cart/${productId}`)
+    return await axios.post(`${SERVER_BASE}/add_to_cart/${productId}`);
+}
+
+export const httpRemoveFromCart = async(productId) => {
+    return await axios.post(`${SERVER_BASE}/remove_from_cart/${productId}`);
 }

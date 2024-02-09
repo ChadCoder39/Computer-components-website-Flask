@@ -38,10 +38,14 @@ def decrease_good_quantity(product_id):
 @app.route("/remove_from_cart/<product_id>", methods=["POST"])
 def remove_good_from_cart(product_id):
     cart = session.get('cart', [])
-    if product_id in cart:
-        del cart[product_id]
-    session['cart'] = cart
-    return jsonify(cart)
+    
+    cart_data = []
+    for i in cart:
+        if (i != product_id):
+            cart_data.append(i)
+        
+    session['cart'] = cart_data
+    return jsonify(cart_data)
 
 
 @app.route("/cart", methods=["GET"])
