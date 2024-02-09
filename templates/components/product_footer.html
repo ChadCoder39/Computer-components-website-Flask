@@ -2,11 +2,11 @@
 {% if url_for(request.endpoint) == "/order_cart" %}
     <div class="row">
         <div class="col-9">
-            <a href="#" id="increase-product-amount" class="btn btn-primary" data-product_id="{{ product.product_id }}"><span class="bi bi-plus-circle-fill"></span></a>
-            <a href="#" id="decrease-product-amount" class="btn btn-warning" data-product_id="{{ product.product_id }}"><span class="bi bi-dash-circle-fill"></span></a>
+            <button id="increase-product-amount" class="btn btn-primary"><span class="bi bi-plus-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
+            <button id="decrease-product-amount" class="btn btn-warning"><span class="bi bi-dash-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
         </div>
         <div class="col-3">
-            <a href="#" id="remove-product" class="btn btn-danger" data-product_id="{{ product.product_id }}"><span class="bi bi-trash-fill"></span></a>
+            <button id="remove-product" class="btn btn-danger"><span class="bi bi-trash-fill" data-product_id="{{ product.product_id }}"></span></button>
         </div>
     </div>
     <div class="pt-2">
@@ -18,7 +18,7 @@
     </div>
 {% else %}
     <p><span class="badge bg-dark fs-5">{{ product.price }} $</span></p>
-    <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ product.product_id }}">
+    <button id="add-to-cart" class="btn btn-primary" data-product_id="{{ product.product_id }}">
         <span class="bi bi-bag-plus-fill"></span>&nbsp;<span id="add-to-cart-text">Add to cart</span>
-    </a>
+    </button>
 {% endif %}

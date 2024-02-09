@@ -36,10 +36,10 @@ function parseProducts(productsInCart) {
     items.forEach(node => {
         // apply event on 'add to cart' button
         const btn = node.querySelector('#add-to-cart');
-        const pid = btn.getAttribute('data-product_id');
-        let inCart = productsInCart.map(i => i.product_id).includes(Number(pid));
         // add event listener if btn with id 'add-to-cart' exists
         if (btn) {
+            const pid = btn.getAttribute('data-product_id');
+            let inCart = productsInCart.map(i => i.product_id).includes(Number(pid));
             // arrow function to update btn text 
             const updateBtnText = (productIsInCart) => {
                 const btnSpan = btn.querySelector('#add-to-cart-text');
@@ -64,42 +64,42 @@ function parseProducts(productsInCart) {
                     });
                 }
             });
+        }
 
-            // apply more event listeners if the order_cart page was opened
-            if (location.pathname === '/order_cart') {
-                // remove from cart
-                const btnsRemoveFromCart = document.querySelectorAll('#remove-product');
-                btnsRemoveFromCart.forEach(removeBtn => {
-                    removeBtn.addEventListener('click', async(e) => {
-                        e.preventDefault();
-                        await httpRemoveFromCart(getDataProductIdProperty(e)).then(({data}) => {
-                            console.log(data)
-                        });
+        // apply more event listeners if the order_cart page was opened
+        if (location.pathname === '/order_cart') {
+            // remove from cart
+            const btnsRemoveFromCart = document.querySelectorAll('#remove-product');
+            btnsRemoveFromCart.forEach(removeBtn => {
+                removeBtn.addEventListener('click', async(e) => {
+                    e.preventDefault();
+                    await httpRemoveFromCart(getDataProductIdProperty(e)).then(({data}) => {
+                        console.log(data)
                     });
                 });
-    
-                // increase amount
-                const btnsIncreaseCount = document.querySelectorAll('#increase-product-amount');
-                btnsIncreaseCount.forEach(increaseBtn => {
-                    increaseBtn.addEventListener('click', async(e) => {
-                        e.preventDefault();
-                        await httpIncreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
-                            console.log(data);
-                        });
-                    })
-                });
-    
-                // decrease amount
-                const btnsDecreaseCount = document.querySelectorAll('#decrease-product-amount');
-                btnsDecreaseCount.forEach(decreaseBtn => {
-                    decreaseBtn.addEventListener('click', async(e) => {
-                        e.preventDefault();
-                        await httpDecreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
-                            console.log(data);
-                        });
-                    })
-                });
-            }
+            });
+
+            // increase amount
+            const btnsIncreaseCount = document.querySelectorAll('#increase-product-amount');
+            btnsIncreaseCount.forEach(increaseBtn => {
+                increaseBtn.addEventListener('click', async(e) => {
+                    e.preventDefault();
+                    await httpIncreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
+                        console.log(data);
+                    });
+                })
+            });
+
+            // decrease amount
+            const btnsDecreaseCount = document.querySelectorAll('#decrease-product-amount');
+            btnsDecreaseCount.forEach(decreaseBtn => {
+                decreaseBtn.addEventListener('click', async(e) => {
+                    e.preventDefault();
+                    await httpDecreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
+                        console.log(data);
+                    });
+                })
+            });
         }
     });
 }
