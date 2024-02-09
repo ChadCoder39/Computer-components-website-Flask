@@ -12,3 +12,11 @@ export const httpAddToCart = async(productId) => {
 export const httpRemoveFromCart = async(productId) => {
     return await axios.post(`${SERVER_BASE}/remove_from_cart/${productId}`);
 }
+
+export const httpIncreaseAmountInCart = async(productId) => {
+    return await axios.post(`${SERVER_BASE}/increase_quantity/${productId}`);
+}
+
+export const httpDecreaseAmountInCart = async(productId) => {
+    return await axios.post(`${SERVER_BASE}/decrease_quantity/${productId}`);
+}
