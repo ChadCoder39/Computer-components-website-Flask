@@ -3,8 +3,24 @@ import { httpAddToCart, httpFetchCart } from "./requests.js";
 
 // wait until the doc content completes loading
 document.addEventListener('DOMContentLoaded', () => {
-    const page = location.pathname;
+    // fetch and parse data from order cart
+    (async() => {
+        await httpFetchCart().then(({data}) => {
+            const productsAmount = data.map(i => i.amount).reduce((acc, curr) => acc + curr, 0)
+            updateCartButton(productsAmount);
+            parseProducts(data);
+        });
+    })();
+});
 
+
+function updateCartButton(x) {
+    const cartBtnText = document.querySelector('#cart-btn-text');
+    cartBtnText.innerHTML = x;
+} 
+
+
+function parseProducts(productsInCart) {
     // get all products
     const items = document.querySelectorAll('#product');
     // applying event listeners
@@ -14,24 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // add event listener if btn with id 'add-to-cart' exists
         btn && btn.addEventListener('click', async(e) => {
             e.preventDefault();
-            await httpAddToCart(e.target.getAttribute('data-product_id')).then(({data}) => {
-                updateCartButton(data.length);
-            });
+            const pid = e.target.getAttribute('data-product_id');
+            if (productsInCart.includes(pid)) {
+                
+            } else {
+                await httpAddToCart(e.target.getAttribute('data-product_id')).then(({data}) => {
+                    updateCartButton(data.length);
+                });
+            }
         });
     });
-
-    // fetch and parse data from order cart
-    (async() => {
-        await httpFetchCart()
-            .then(({data}) => {
-                const productsAmount = data.map(i => i.amount).reduce((acc, curr) => acc + curr, 0)
-                updateCartButton(productsAmount);
-            });
-    })();
-});
-
-
-function updateCartButton(x) {
-    const cartBtnText = document.querySelector('#cart-btn-text');
-    cartBtnText.innerHTML = x;
-} 
+}
