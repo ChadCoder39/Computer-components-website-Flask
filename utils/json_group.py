@@ -1,8 +1,8 @@
-from readJson import readJson
+import json
 import os
 
 
-def cartDataByProdIds(ids: [int]):
+def cartDataByProdIds(ids: list[int]):
     dataFolderPath = os.path.join(os.path.dirname(__file__), '..', 'data')
 
     data = []
