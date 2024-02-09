@@ -12,4 +12,10 @@ def cartDataByProdIds(ids: list[int]):
         with open(filePath) as file:
             data.extend(json.load(file))
 
-    return [product for product in data if product['product_id'] in ids]
+    # filter products
+    products = [product for product in data if product['product_id'] in ids]
+    
+    # add amount prop
+    for product in products: product['amount'] = ids.count(product['product_id'])
+
+    return products

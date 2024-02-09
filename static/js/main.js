@@ -14,15 +14,24 @@ document.addEventListener('DOMContentLoaded', () => {
         // add event listener if btn with id 'add-to-cart' exists
         btn && btn.addEventListener('click', async(e) => {
             e.preventDefault();
-            await httpAddToCart(e.target.getAttribute('data-product_id'));
+            await httpAddToCart(e.target.getAttribute('data-product_id')).then(({data}) => {
+                updateCartButton(data.length);
+            });
         });
     });
 
     // fetch and parse data from order cart
-    if (page === '/order_cart') {
-        (async() => {
-            const data = await httpFetchCart();
-            console.log('Cart data: ', data)
-        })();
-    }
+    (async() => {
+        await httpFetchCart()
+            .then(({data}) => {
+                const productsAmount = data.map(i => i.amount).reduce((acc, curr) => acc + curr, 0)
+                updateCartButton(productsAmount);
+            });
+    })();
 });
+
+
+function updateCartButton(x) {
+    const cartBtnText = document.querySelector('#cart-btn-text');
+    cartBtnText.innerHTML = x;
+} 

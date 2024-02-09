@@ -1,4 +1,5 @@
-from flask import render_template, session, redirect, url_for
+from flask import render_template, session, redirect, url_for, jsonify
+from utils.json_group import cartDataByProdIds
 from main import app
 
 @app.route("/order_cart")
@@ -14,15 +15,10 @@ def add_to_cart(product_id):
     cart = session.get('cart', [])
     cart.append(product_id)
     session['cart'] = cart
-    return redirect(url_for('cart'))
+    return jsonify(cart)
 
 
 @app.route("/cart", methods=["GET"])
 def cart():
-    cart = session.get('cart', [])
-    return render_template(
-        "cart.html", 
-        title="PCraft - Shopping Cart", 
-        content="Shopping Cart Content", 
-        cart=cart
-    )
+    cart = cartDataByProdIds(list(map(int, session.get('cart', []))))
+    return jsonify(cart)
