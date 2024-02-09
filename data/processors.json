@@ -1,9 +1,9 @@
 [
-  {"__typename": "cpu", "name": "Intel Core i5-9400F", "cores": 6, "threads": 6, "clock_speed": "2.9 GHz", "price": 200, "product_id" :13, "img": "https://hotline.ua/img/tx/432/4320934955.jpg"},
-  {"name": "AMD Ryzen 7 3700X", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 330, "product_id" :14, "img": "https://hotline.ua/img/tx/265/2657519755.jpg"},
-  {"name": "Intel Core i9-9900K", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 500, "product_id" :15, "img": "https://hotline.ua/img/tx/180/1806743525.jpg"},
-  {"name": "AMD Ryzen 5 3600X", "cores": 6, "threads": 12, "clock_speed": "3.8 GHz", "price": 250, "product_id" :16, "img": "https://hotline.ua/img/tx/199/1992619425.jpg"},
-  {"name": "Intel Core i7-10700K", "cores": 8, "threads": 16, "clock_speed": "3.8 GHz", "price": 400, "product_id" :17, "img": "https://hotline.ua/img/tx/228/2283825865.jpg"},
-  {"name": "AMD Ryzen 3 3300X", "cores": 4, "threads": 8, "clock_speed": "3.8 GHz", "price": 150, "product_id" :18, "img": "https://i.can.ua/images/650x650/goods/6783/6783935.jpg"}
-]
+    {"typename" : "processor","name": "Intel Core i5-9400F", "cores": 6, "threads": 6, "clock_speed": "2.9 GHz", "price": 200, "product_id" :13, "img": "https://hotline.ua/img/tx/432/4320934955.jpg"},
+    {"typename" : "processor","name": "AMD Ryzen 7 3700X", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 330, "product_id" :14, "img": "https://hotline.ua/img/tx/265/2657519755.jpg"},
+    {"typename" : "processor","name": "Intel Core i9-9900K", "cores": 8, "threads": 16, "clock_speed": "3.6 GHz", "price": 500, "product_id" :15, "img": "https://hotline.ua/img/tx/180/1806743525.jpg"},
+    {"typename" : "processor","name": "AMD Ryzen 5 3600X", "cores": 6, "threads": 12, "clock_speed": "3.8 GHz", "price": 250, "product_id" :16, "img": "https://hotline.ua/img/tx/199/1992619425.jpg"},
+    {"typename" : "processor","name": "Intel Core i7-10700K", "cores": 8, "threads": 16, "clock_speed": "3.8 GHz", "price": 400, "product_id" :17, "img": "https://hotline.ua/img/tx/228/2283825865.jpg"},
+    {"typename" : "processor","name": "AMD Ryzen 3 3300X", "cores": 4, "threads": 8, "clock_speed": "3.8 GHz", "price": 150, "product_id" :18, "img": "https://i.can.ua/images/650x650/goods/6783/6783935.jpg"}
+  ]
 

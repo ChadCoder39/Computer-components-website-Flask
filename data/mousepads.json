@@ -1,9 +1,9 @@
 [
-    {"name": "SteelSeries QcK", "width": 320, "height": 270, "material": "Cloth", "price": 15, "product_id" :25, "img": "https://hotline.ua/img/tx/202/2029360405.jpg"},
-    {"name": "Corsair MM300", "width": 930, "height": 300, "material": "Textile-Weave", "price": 25, "product_id" :26, "img": "https://hotline.ua/img/tx/351/3516533085.jpg"},
-    {"name": "Razer Goliathus Speed", "width": 450, "height": 400, "material": "Soft", "price": 20, "product_id" :27, "img": "https://productimages.hepsiburada.net/s/1/375-375/9540924407858.jpg"},
-    {"name": "Logitech G240", "width": 340, "height": 280, "material": "Cloth", "price": 10, "product_id" :28, "img": "https://hotline.ua/img/tx/111/11177055.jpg"},
-    {"name": "HyperX Fury S", "width": 900, "height": 420, "material": "Cloth", "price": 30, "product_id" :29, "img": "https://hotline.ua/img/tx/174/1744343385.jpg"},
-    {"name": "Cooler Master MP510", "width": 320, "height": 270, "material": "Cordura Fabric", "price": 22, "product_id" :30, "img": "https://cdn.coolermaster.com/media/assets/1042/mp510_mousepad_l_blk_01-zoom.png"}
+    {"typename" : "mousepad","name": "SteelSeries QcK", "width": 320, "height": 270, "material": "Cloth", "price": 15, "product_id" :25, "img": "https://hotline.ua/img/tx/202/2029360405.jpg"},
+    {"typename" : "mousepad","name": "Corsair MM300", "width": 930, "height": 300, "material": "Textile-Weave", "price": 25, "product_id" :26, "img": "https://hotline.ua/img/tx/351/3516533085.jpg"},
+    {"typename" : "mousepad","name": "Razer Goliathus Speed", "width": 450, "height": 400, "material": "Soft", "price": 20, "product_id" :27, "img": "https://productimages.hepsiburada.net/s/1/375-375/9540924407858.jpg"},
+    {"typename" : "mousepad","name": "Logitech G240", "width": 340, "height": 280, "material": "Cloth", "price": 10, "product_id" :28, "img": "https://hotline.ua/img/tx/111/11177055.jpg"},
+    {"typename" : "mousepad","name": "HyperX Fury S", "width": 900, "height": 420, "material": "Cloth", "price": 30, "product_id" :29, "img": "https://hotline.ua/img/tx/174/1744343385.jpg"},
+    {"typename" : "mousepad","name": "Cooler Master MP510", "width": 320, "height": 270, "material": "Cordura Fabric", "price": 22, "product_id" :30, "img": "https://cdn.coolermaster.com/media/assets/1042/mp510_mousepad_l_blk_01-zoom.png"}
   ]
 

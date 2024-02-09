@@ -1,11 +1,11 @@
 
  [
-    {"name": "NVIDIA GeForce GTX 1080", "memory": "8GB GDDR5X", "price": 500, "product_id" : 1, "img": "https://hotline.ua/img/tx/913/913329755.jpg"},
-    {"name": "AMD Radeon RX 5700 XT", "memory": "8GB GDDR6", "price": 450, "product_id" : 2, "img": "https://hotline.ua/img/tx/385/3850836725.jpg"},
-    {"name": "NVIDIA GeForce RTX 3070", "memory": "8GB GDDR6", "price": 600, "product_id" :3, "img": "https://hotline.ua/img/tx/409/4098160525.jpg"},
-    {"name": "AMD Radeon RX 5600 XT", "memory": "6GB GDDR6", "price": 300, "product_id" :4, "img": "https://hotline.ua/img/tx/218/2184969365.jpg"},
-    {"name": "NVIDIA GeForce GTX 1660 Super", "memory": "6GB GDDR5", "price": 250, "product_id" :5, "img": "https://hotline.ua/img/tx/213/2138220175.jpg"},
-    {"name": "AMD Radeon RX 5500 XT", "memory": "4GB GDDR6", "price": 200, "product_id" :6, "img": "https://hotline.ua/img/tx/218/2182269955.jpg"}
+    {"typename" : "videocard","name": "NVIDIA GeForce GTX 1080", "memory": "8GB GDDR5X", "price": 500, "product_id" : 1, "img": "https://hotline.ua/img/tx/913/913329755.jpg"},
+    {"typename" : "videocard","name": "AMD Radeon RX 5700 XT", "memory": "8GB GDDR6", "price": 450, "product_id" : 2, "img": "https://hotline.ua/img/tx/385/3850836725.jpg"},
+    {"typename" : "videocard","name": "NVIDIA GeForce RTX 3070", "memory": "8GB GDDR6", "price": 600, "product_id" :3, "img": "https://hotline.ua/img/tx/409/4098160525.jpg"},
+    {"typename" : "videocard","name": "AMD Radeon RX 5600 XT", "memory": "6GB GDDR6", "price": 300, "product_id" :4, "img": "https://hotline.ua/img/tx/218/2184969365.jpg"},
+    {"typename" : "videocard","name": "NVIDIA GeForce GTX 1660 Super", "memory": "6GB GDDR5", "price": 250, "product_id" :5, "img": "https://hotline.ua/img/tx/213/2138220175.jpg"},
+    {"typename" : "videocard","name": "AMD Radeon RX 5500 XT", "memory": "4GB GDDR6", "price": 200, "product_id" :6, "img": "https://hotline.ua/img/tx/218/2182269955.jpg"}
   ]
 
 

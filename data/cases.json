@@ -1,9 +1,9 @@
  [
-    {"name": "NZXT H510", "form_factor": "Mid Tower", "color": "Black", "price": 70, "product_id" :55, "img": "https://hotline.ua/img/tx/341/3419837925.jpg"},
-    {"name": "Fractal Design Meshify C", "form_factor": "Mid Tower", "color": "White", "price": 90, "product_id" :56, "img": "https://hotline.ua/img/tx/273/2738581555.jpg"},
-    {"name": "Phanteks Eclipse P300", "form_factor": "Mid Tower", "color": "Black", "price": 60, "product_id" :57, "img": "https://hotline.ua/img/tx/157/1571676935.jpg"},
-    {"name": "Corsair Crystal 570X", "form_factor": "Mid Tower", "color": "RGB", "price": 150, "product_id" :58, "img": "https://hotline.ua/img/tx/135/1350139945.jpg"},
-    {"name": "NZXT H710i", "form_factor": "Full Tower", "color": "Black", "price": 170, "product_id" :59, "img": "https://hotline.ua/img/tx/343/3432812165.jpg"},
-    {"name": "Lian Li PC-O11 Dynamic", "form_factor": "Mid Tower", "color": "White", "price": 120, "product_id" :60, "img": "https://hotline.ua/img/tx/343/3432516875.jpg"}
+    {"typename" : "case","name": "NZXT H510", "form_factor": "Mid Tower", "color": "Black", "price": 70, "product_id" :55, "img": "https://hotline.ua/img/tx/341/3419837925.jpg"},
+    {"typename" : "case","name": "Fractal Design Meshify C", "form_factor": "Mid Tower", "color": "White", "price": 90, "product_id" :56, "img": "https://hotline.ua/img/tx/273/2738581555.jpg"},
+    {"typename" : "case","name": "Phanteks Eclipse P300", "form_factor": "Mid Tower", "color": "Black", "price": 60, "product_id" :57, "img": "https://hotline.ua/img/tx/157/1571676935.jpg"},
+    {"typename" : "case","name": "Corsair Crystal 570X", "form_factor": "Mid Tower", "color": "RGB", "price": 150, "product_id" :58, "img": "https://hotline.ua/img/tx/135/1350139945.jpg"},
+    {"typename" : "case","name": "NZXT H710i", "form_factor": "Full Tower", "color": "Black", "price": 170, "product_id" :59, "img": "https://hotline.ua/img/tx/343/3432812165.jpg"},
+    {"typename" : "case","name": "Lian Li PC-O11 Dynamic", "form_factor": "Mid Tower", "color": "White", "price": 120, "product_id" :60, "img": "https://hotline.ua/img/tx/343/3432516875.jpg"}
   ]
 
