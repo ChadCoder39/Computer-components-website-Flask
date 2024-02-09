@@ -7,7 +7,7 @@ def order_cart():
     return render_template(
         "order_cart.html", 
         title="PCraft - Order Cart", 
-        content="Order Cart Content"
+        content=cartDataByProdIds(list(map(int, session.get('cart', []))))
     )
 
 @app.route("/add_to_cart/<product_id>", methods=["POST"])
@@ -16,6 +16,7 @@ def add_to_cart(product_id):
     cart.append(product_id)
     session['cart'] = cart
     return jsonify(cart)
+
 
 
 @app.route("/cart", methods=["GET"])

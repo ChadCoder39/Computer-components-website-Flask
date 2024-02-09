@@ -1,13 +1,12 @@
 <div id="product" class="card shadow-sm p-3 rounded" style="width: 18rem; height: 35rem;">
-    <img src="{{ monitor.img }}" class="card-img-top" alt="{{ monitor.name }}">
+    <img src="{{ product.img }}" class="card-img-top" alt="{{ product.name }}">
     <div class="card-body">
-        <h5 class="card-title">{{ monitor.name }}</h5>
-        <p class="card-text">{{ monitor.size }}</p>
-        <p class="card-text">{{ monitor.refresh_rate }}</p>
-        <p class="card-text">{{ monitor.resolution }}</p>
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.size }}</p>
+        <p class="card-text">{{ product.refresh_rate }}</p>
+        <p class="card-text">{{ product.resolution }}</p>
     </div>
     <div class="p-3">
-        <p><span class="badge bg-dark fs-5">{{ monitor.price }} $</span></p>
-        <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ monitor.product_id }}">Add to cart</a>
+        {% include 'components/product_footer.html' %}
     </div>
 </div>

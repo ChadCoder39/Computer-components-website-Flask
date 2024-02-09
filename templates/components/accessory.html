@@ -1,11 +1,10 @@
 <div id="product" class="card shadow-sm p-3 rounded" style="width: 18rem; height: 35rem;">
-    <img src="{{ accessory.img }}" class="card-img-top" alt="{{ accessory.name }}">
+    <img src="{{ product.img }}" class="card-img-top" alt="{{ product.name }}">
     <div class="card-body">
-        <h5 class="card-title">{{ accessory.name }}</h5>
-        <p class="card-text">{{ accessory.type }}</p>
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.type }}</p>
     </div>
     <div class="p-3">
-        <p><span class="badge bg-dark fs-5">{{ accessory.price }} $</span></p>
-        <a href="#" id="add-to-cart" class="btn btn-primary" data-product_id="{{ accessory.product_id }}">Add to cart</a>
+        {% include 'components/product_footer.html' %}
     </div>
 </div>
