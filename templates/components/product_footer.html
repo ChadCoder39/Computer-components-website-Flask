@@ -2,18 +2,18 @@
 {% if url_for(request.endpoint) == "/order_cart" %}
     <div class="row">
         <div class="col-9">
-            <button id="increase-product-amount" class="btn btn-primary"><span class="bi bi-plus-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
-            <button id="decrease-product-amount" class="btn btn-warning"><span class="bi bi-dash-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
+            <button id="increase-product-amount" class="btn btn-primary" data-product_id="{{ product.product_id }}"><span class="bi bi-plus-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
+            <button id="decrease-product-amount" class="btn btn-warning" data-product_id="{{ product.product_id }}"><span class="bi bi-dash-circle-fill" data-product_id="{{ product.product_id }}"></span></button>
         </div>
         <div class="col-3">
-            <button id="remove-product" class="btn btn-danger"><span class="bi bi-trash-fill" data-product_id="{{ product.product_id }}"></span></button>
+            <button id="remove-product" class="btn btn-danger" data-product_id="{{ product.product_id }}"><span class="bi bi-trash-fill" data-product_id="{{ product.product_id }}"></span></button>
         </div>
     </div>
     <div class="pt-2">
         <p>
-            <span class="badge bg-secondary fs-5">{{ product.price }} $</span>
-            <span class="fs-5">x {{ product.amount }} = </span>
-            <span class="badge bg-dark fs-5">{{ product.price * product.amount }} $</span>
+            <span id="product-price-{{product.product_id}}" class="badge bg-secondary fs-5">{{ product.price }} $</span>
+            <span id="product-amount-{{product.product_id}}" class="fs-5">x {{ product.amount }} = </span>
+            <span id="product-price-calculated-{{product.product_id}}" class="badge bg-dark fs-5">{{ product.price * product.amount }} $</span>
         </p>
     </div>
 {% else %}

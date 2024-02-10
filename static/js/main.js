@@ -27,6 +27,16 @@ function getDataProductIdProperty(e) {
     return e.target.getAttribute('data-product_id');
 }
 
+function parsePriceInCart(htmlNode, data, pid) {
+    try {
+        htmlNode.querySelector(`#product-amount-${pid}`).innerHTML = `x ${data.filter(i => i == pid).length} = `;
+        let price = htmlNode.querySelector(`#product-price-${pid}`).innerHTML;
+        price = price.slice(0, price.indexOf(' '));
+        htmlNode.querySelector(`#product-price-calculated-${pid}`).innerHTML  = `${data.filter(i => i == pid).length * +price} $`
+        updateCartButton(data.length);
+    } catch (error) {}
+}
+
 
 // function to properly display products on page and apply event listeners
 function parseProducts(productsInCart) {
@@ -36,6 +46,7 @@ function parseProducts(productsInCart) {
     items.forEach(node => {
         // apply event on 'add to cart' button
         const btn = node.querySelector('#add-to-cart');
+        
         // add event listener if btn with id 'add-to-cart' exists
         if (btn) {
             const pid = btn.getAttribute('data-product_id');
@@ -73,8 +84,9 @@ function parseProducts(productsInCart) {
             btnsRemoveFromCart.forEach(removeBtn => {
                 removeBtn.addEventListener('click', async(e) => {
                     e.preventDefault();
-                    await httpRemoveFromCart(getDataProductIdProperty(e)).then(({data}) => {
-                        console.log(data)
+                    const pid = getDataProductIdProperty(e);
+                    await httpRemoveFromCart(pid).then(_ => {
+                        location.reload();
                     });
                 });
             });
@@ -84,10 +96,11 @@ function parseProducts(productsInCart) {
             btnsIncreaseCount.forEach(increaseBtn => {
                 increaseBtn.addEventListener('click', async(e) => {
                     e.preventDefault();
-                    await httpIncreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
-                        console.log(data);
+                    const pid = getDataProductIdProperty(e);
+                    await httpIncreaseAmountInCart(pid).then(({data}) => {
+                        parsePriceInCart(node, data, pid);
                     });
-                })
+                });
             });
 
             // decrease amount
@@ -95,8 +108,9 @@ function parseProducts(productsInCart) {
             btnsDecreaseCount.forEach(decreaseBtn => {
                 decreaseBtn.addEventListener('click', async(e) => {
                     e.preventDefault();
-                    await httpDecreaseAmountInCart(getDataProductIdProperty(e)).then(({data}) => {
-                        console.log(data);
+                    const pid = getDataProductIdProperty(e);
+                    await httpDecreaseAmountInCart(pid).then(({data}) => {
+                        parsePriceInCart(node, data, pid);
                     });
                 })
             });
