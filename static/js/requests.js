@@ -20,3 +20,7 @@ export const httpIncreaseAmountInCart = async(productId) => {
 export const httpDecreaseAmountInCart = async(productId) => {
     return await axios.post(`${SERVER_BASE}/decrease_quantity/${productId}`);
 }
+
+export const httpSendCartData = async(email) => {
+    return await axios.post(`${SERVER_BASE}/submit_order`, { email });
+}

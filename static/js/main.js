@@ -1,5 +1,5 @@
 'use strict'
-import { httpAddToCart, httpDecreaseAmountInCart, httpFetchCart, httpIncreaseAmountInCart, httpRemoveFromCart } from "./requests.js";
+import { httpAddToCart, httpDecreaseAmountInCart, httpFetchCart, httpIncreaseAmountInCart, httpRemoveFromCart, httpSendCartData } from "./requests.js";
 
 
 // wait until the doc content completes loading
@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const productsAmount = data.map(i => i.amount).reduce((acc, curr) => acc + curr, 0)
             updateCartButton(productsAmount);
             parseProducts(data);
-            console.log(data)
         });
     })();
 });
@@ -40,6 +39,23 @@ function parsePriceInCart(htmlNode, data, pid) {
 
 // function to properly display products on page and apply event listeners
 function parseProducts(productsInCart) {
+
+    // submit oreder cart 
+    if (location.pathname === '/order_cart') {
+        const btnSubmitOrder = document.querySelector('#submit-cart-button');
+        btnSubmitOrder.addEventListener('click', async(e) => {
+            e.preventDefault();
+            if (productsInCart.length) {
+                const email = prompt('Pls enter your email address');
+                email && await httpSendCartData(email).then(_ => {
+                    location.reload();
+                });
+            } else {
+                alert('Your cart is empty');
+            }
+        });
+    }
+
     // get all products
     const items = document.querySelectorAll('#product');
     // applying event listeners
